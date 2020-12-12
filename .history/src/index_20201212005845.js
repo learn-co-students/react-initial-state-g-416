@@ -5,8 +5,10 @@ import ToggleButton from './components/ToggleButton';
 import Address from './components/Address';
 
 ReactDOM.render(
-  // <ToggleButton />,
+  <Fragment>
+  <ToggleButton />,
   <Address street="Santa Monica Blvd."
     city="Santa Monica" />,
   document.getElementById('root')
+  </Fragment>
 )
